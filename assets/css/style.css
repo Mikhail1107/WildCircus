@@ -1,0 +1,192 @@
+/* In order to validate your CSS code, click on the arrow at the top right of this window. Don't forget, you can have a look here : https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ 
+ */
+
+/* Your CSS code here */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 50px;
+}
+
+/*Performances*/
+
+.performances {
+    margin: 50px 0;
+}
+
+ul.line {
+    width: 100%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+ul.line {
+
+    padding-top: 20px;
+}
+
+ul.line li.performance {
+    display: inline;
+}
+
+.line {
+    display: table;
+    margin: 0 auto;
+}
+
+li.performance {
+    width: 30%;
+}
+
+.performance {
+    float: left;
+    margin: 20px;
+}
+
+/*About Us*/
+
+.about {
+    margin: 50px;
+}
+
+.fond {
+    margin: auto;
+    width: 360px;
+}
+
+#block1 {
+    height: 10px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#block2 {
+    height: 10px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#block3 {
+    height: 10px;
+    width: 100px;
+    background-color: green;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+/*Table*/
+
+.price {
+    margin: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid blue;
+}
+
+th {
+    height: 50px;
+    background-color: fuchsia;
+    color: white;
+}
+
+td {
+    height: 40px;
+    text-align: center;
+}
+
+th:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+td:hover {
+    background-color: aquamarine;
+}
+
+/*Contact form*/
+
+input[type=text],
+select,
+textarea {
+    width: 500px;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: fuchsia;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: navy;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.container {
+    width: 600px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 20px;
+    align-self: center;
+}
+
+footer {
+    margin: 100px;
+}
